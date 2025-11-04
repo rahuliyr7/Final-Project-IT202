@@ -1,0 +1,12 @@
+{
+  "productName": "Shoe",
+  "version": "1.0",
+  "checkOutCounter": false,
+  "features": [
+    "stays on foot",
+    "comfortable",
+    "cheap"
+  ],
+  "cost": "12.99",
+  "checkoutImg" : "Keanu.jpg"
+}
