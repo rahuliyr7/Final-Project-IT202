@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sports Store</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class = "main-content-link" href ="#main-page"> Click to go to main content</a>
+
+  <header>
+    <h1>Sports Zone</h1>  
+    <nav aria-label = "Primary">
+    <ul class= "navigation-links">
+      <li><a class = "is-active" href ="homepaget.html">Home</a></li>
+      <li><a href = "cart.html">Cart Items <span id = "cartState" class = "badge" aria-label = "Cart Items" >0</span></a></li>
+      <li><a href = "checkout.html">Checkout</a></li>
+    </ul>
+  </nav>
+  </header>
+  
+  <main id = "main-page">
+
+    <section id = "intro" aria-labelledby="intro-header">
+      <h2 id="intro-header">Welcome to Sports Zone</h2>
+      <p> Shop shoes, jerseys, balls, and other sports equipment</p>
+    </section> 
+
+    <section id = "carousel" aria-label="promos">
+      <figure class = "slide-active">
+      <img src = "" alt = "Newest in sports gear" />
+      <figcaption> Newest in sports gear</figcaption>
+      </figure>
+
+      <figure class = "slide">
+        <img src="" alt="Winter sale up to 40% off">
+        <figcaption> Winter Sale up to 40% off</figcaption>
+      </figure>
+
+
+      <figure class = "slide">
+        <img src="" alt="Shop your favorites">
+        <figcaption>Shop your favorites</figcaption>
+      </figure>
+
+<button class ="carousel-back" type = "button" aria-label ="Last Slide">&#10094;</button>
+<button class ="carousel-next" type = "button" aria-label ="Next Slide">&#10095;</button>
+</section>
+
+
+    <section id = "products" aria-labelledby="product-page-header">
+      <h2 id = "product-page-header">New Arrivals</h2>
+      <ul id = "product-list" class = "product-layout">
+        <li>
+          <article class = "product-card">
+            <img src = ""alt = "Soccer Match Ball" />
+            <h3 class = "product-name">Soccer Ball</h3>
+            <p class = "product-info">Soccer Training and Match Ball</p>
+            <p class = "product-price"> $25.99</p>
+            <button class = "add-to-cart-button" data-id = "1" type = "button"> Add item to cart</button>
+            </article>
+        </li>
+
+        <li>
+          <article class = "product-card">
+            <img src = ""alt = "Soccer Cleats" />
+            <h3 class = "product-name">Soccer Cleats</h3>
+            <p class = "product-info">Soccer Training and Match Cleats</p>
+            <p class = "product-price"> $75.99</p>
+            <button class = "add-to-cart-button" data-id = "2" type = "button"> Add item to cart</button>
+            </article>
+        </li>
+
+        <li>
+          <article class = "product-card">
+            <img src = ""alt = "Basketball Match Ball" />
+            <h3 class = "product-name">Basketball</h3>
+            <p class = "product-info">Basketball Training and Match Ball</p>
+            <p class = "product-price"> $25.99</p>
+            <button class = "add-to-cart-button" data-id = "3" type = "button"> Add item to cart</button>
+            </article>
+        </li>
+      </ul>
+    </section>
+
+    <section id = "store-info" aria-labelledby ="store-info-header">
+      <h2 id = "store-info-header">Store Information</h2>
+      <p> Free shipping on all orders over $50</p>
+    </section>
+  </main>
+
+  <footer>
+    <small> 2025 Sports Zone IT202 Team</small>
+    </footer>
+  </body>
+</html>
