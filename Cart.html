@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width = device-width" , initial-scale=1.0 />
+    <title> View Cart - Sports Zone </title>
+    <link rel="stylsheet" href="cart.css" />
+</head>
+
+<body>
+    <a class="main-content-link" href="#main-page">Skip to Items</a>
+    <header>
+        <h1>Sports Zone</h1>
+        <nav aria-label="Primary">
+            <ul class="navigation-links">
+                <li><a class="is-active" href="homepage.html">Home</a></li>
+                <li><a class="is-active" href="cart.html">
+                        Cart <span id="cartState" class="badge">0</span>
+                    </a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-page">
+
+        <section id="cart-landing" aria-labelledby="cart-header"></section>
+        <h2 id="cart - header">Cart Items</h2>
+        <p>Review your chosen items</p>
+        <section>
+
+            <section id="cart-section">
+                <div class="cart-format">
+                    <div class="cart-products">
+
+                        <h3 class="cart-section-header">Items in Cart</h3>
+
+
+                        <p id="cartEmptyMessage"> Cart is currently empty visit one of our other pages to add products
+                        </p>
+
+                        <!-----JS implementation but template for temporary functiuonality-->
+                        <article class="product-card" data-id="PRODUCT_NUM"></article>
+                        <img stc="img/sample.jpg" alt="Product image " class="cart-img" , />
+                        <div class="cart-info">
+                            <h4 class="cart-product-name">Soccer Ball</h4>
+                            <p class="cart-product-price">$25.99</p>
+
+                            <label foir="quantity-1">Quantity:</label>
+                            <input id="quantity-1" type="number" class="cart-quantity" min="1" value="1" />
+
+
+                            <button c;ass="remove-btn">Remove item</button>
+                        </div>
+                        </article>
+
+                    </div>
+
+                    <aside class="cart-summray" aria-label="Order Summary">
+                        <h3>Order Summary</h3>
+
+                        <p>Subtotal <span id="sum-subtotal">$0.00</span></p>
+                        <p>Tax: <span id="sum-tax" $0.00></span>/span></p>
+                        <p>Shipping: <span id="sum-ship">Free</span></p>
+
+                        <p class="summary-total">
+                            Order Total: <strong id="order-total">$0.00</strong>
+                        </p>
+
+                        <button id="clearItems" class="btn empty-btn"> Clear cart items</button>
+                        <a href="checkout.html" class="btn process-btn">Proceed to Checkout</a>
+                    </aside>
+                    <section id="store-info" aria-labelledby="store-info-header">
+                        <h2 id="store-info-header">Store Information</h2>
+                        <p> Free shipping on all orders over $50</p>
+                    </section>
+    </main>
+
+    <footer>
+        <small> 2025 Sports Zone IT202 Team</small>
+    </footer>
+</body>
+
+</html>
